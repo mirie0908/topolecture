@@ -1,0 +1,16 @@
+.example table {
+    border: 1px #000000 solid;
+    border-collapse: collapse;
+}
+
+.example th {
+    border: 1px #000000 solid;
+    background-color: #00ffff;
+    font-size: smaller;
+}
+    
+.example td {
+    border: 1px #000000 solid;
+    background-color: #f5eeee;
+    font-size: smaller;
+}
