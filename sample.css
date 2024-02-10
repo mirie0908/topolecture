@@ -1,0 +1,74 @@
+.tab {
+    width: 100%;
+    /*max-width: 400px;*/
+  }
+  
+  div[role="tablist"] {
+    display: flex;
+  }
+  
+  button[role="tab"] {
+    border: none;
+    background-color: #576066;
+    border-radius: 8px 8px 0 0;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 4px 12px;
+  }
+  
+  button[role="tab"][aria-selected="true"] {
+    background-color: #FFFFFF;
+  }
+  
+  button[role="tab"][aria-selected="false"]:hover {
+    background-color: #FFFFFF;
+    cursor: pointer;
+  }
+  
+  div[role="tabpanel"] {
+    background-color: #FFFFFF;
+    border-radius: 0 8px 8px 8px;
+    padding: 32px 16px;
+  }
+  
+  p {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  body {
+    background-color: #212529;
+    /*display: grid;*/
+    /*height: calc(100vh - 16px);*/
+    margin: 0;
+    padding: 8px;
+    /*place-items: center;*/
+    /*width: calc(100% - 16px);*/
+  }
+
+  h4 {
+    background-color: #FFFFFF;
+  }
+
+  .tab table {
+    border: 1px #000000 solid;
+    border-collapse: collapse;
+}
+
+.tab th {
+    border: 1px #000000 solid;
+    background-color: #00ffff;
+    font-size: smaller;
+}
+    
+.tab td {
+    border: 1px #000000 solid;
+    background-color: #f5eeee;
+    font-size: smaller;
+}
+  
+div[id="timestamp"] {
+  font-size: smaller;
+  font-weight: normal;
+}
